@@ -1,8 +1,8 @@
 {
   "name": "admin",
-  "homepage": "https://sufyan03019777121.github.io/admin_al_sharif_nursery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sufyan03019777121.github.io/admin_al_sharif_nursery",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -17,9 +17,7 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.5.2",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
