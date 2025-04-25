@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/admin_al_sharif_nursery/static/css/main.e6c13ad2.css",
-    "main.js": "/admin_al_sharif_nursery/static/js/main.770ab384.js",
+    "main.css": "/admin_al_sharif_nursery/static/css/main.efe9e552.css",
+    "main.js": "/admin_al_sharif_nursery/static/js/main.a3cf194b.js",
     "index.html": "/admin_al_sharif_nursery/index.html",
-    "main.e6c13ad2.css.map": "/admin_al_sharif_nursery/static/css/main.e6c13ad2.css.map",
-    "main.770ab384.js.map": "/admin_al_sharif_nursery/static/js/main.770ab384.js.map"
+    "main.efe9e552.css.map": "/admin_al_sharif_nursery/static/css/main.efe9e552.css.map",
+    "main.a3cf194b.js.map": "/admin_al_sharif_nursery/static/js/main.a3cf194b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.770ab384.js"
+    "static/css/main.efe9e552.css",
+    "static/js/main.a3cf194b.js"
   ]
 }
