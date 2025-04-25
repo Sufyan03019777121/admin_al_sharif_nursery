@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
+import "./App.css"
 
-const AdminDashboard = ({}) => {
+const App = ({}) => {
   // Loading products from localStorage
   const storedProducts = JSON.parse(localStorage.getItem("products")) || [];
 
@@ -94,6 +95,7 @@ const AdminDashboard = ({}) => {
 
   return (
     <div className="container mt-4">
+      <h2 className="mb-4 text-center">Al Sharif Nursery</h2>
       <h2 className="mb-4">Admin Dashboard</h2>
 
       {/* Product add or edit form */}
@@ -142,8 +144,8 @@ const AdminDashboard = ({}) => {
 
       {/* Inspirational song */}
       <div className="mb-4">
-        <h4>Inspirational :</h4>
-        <p>"اگر آپ اپنے خوابوں کو حقیقت میں بدلنا چاہتے ہیں تو لگن اور ایمانداری سے کام کریں۔."</p>
+        <h4>Inspirational:</h4>
+        <p>"اگر آپ اپنے خوابوں کو حقیقت میں بدلنا چاہتے ہیں تو لگن اور ایمانداری سے کام کریں۔"</p>
         <audio controls>
           <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3" />
           Your browser does not support the audio element.
@@ -185,4 +187,4 @@ const AdminDashboard = ({}) => {
   );
 };
 
-export default AdminDashboard;
+export default App;
